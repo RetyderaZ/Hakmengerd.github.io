@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Kanit&display=swap);
+
+
+
+body{
+     background: linear-gradient(65deg, #188511 37%, #044909 78%);
+}
+
+.btn-outline-secondary {
+    background: linear-gradient(65deg, hsl(116, 63%, 18%) 37%, #0d8d16 78%)
+}
+
+.помощь {
+    color: rgb(255, 255, 255);
+}
+
+
+.nav-link {
+    color: aqua;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(207, 42, 42);
+}
+
+.navbar-brand img {
+    width: 70px;
+}
+
+.nav-link-ki {
+    color: rgb(109, 12, 80);
+}
+
+.card-title {
+    text-align: center;
+}
+
+.sidebar {
+    color: rgb(255, 8, 0);
+    background: linear-gradient(160deg, #0e480a 37%, #26ca31 78%);
+}
+
+
+.card{
+    color: aqua;
+    border:none;
+    background: linear-gradient(132deg, #0f550a 37%, #023606 68%);
+}
+
+table{
+    background: none;
+    
+    border: 0;
+    
+    }
+
+.card {
+    color: rgb(255, 255, 255);
+}
+
+.card a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.slide-text,
+.footer-text {
+    color: rgb(255, 255, 255);
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(96deg, #379c30 37%, #145c1a 68%);
+}
+
+
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anim-fk{
+    animation: anim 3s ease 3s 1 normal forwards;
+}
+
+@keyframes anim {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
